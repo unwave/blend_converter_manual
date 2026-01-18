@@ -48,7 +48,8 @@
 
 ##### Optional, but highly recommended external solutions:
 
-**Windows only.**
+**Windows only.** *(If you know how to make them work on Linux or Mac — let me know)*
+
 
 * [Legacy UV Packer](https://www.uv-packer.com/) for efficient UV packing.
 
