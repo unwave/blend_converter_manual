@@ -80,3 +80,12 @@
 #### Usage:
 
 * See https://github.com/unwave/blend_converter_template.
+
+
+#### Support:
+
+* Github: https://github.com/unwave/blend_converter/issues
+
+* Discord: `unwave`
+
+* Telegram: https://t.me/unwave
