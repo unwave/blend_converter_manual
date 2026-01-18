@@ -57,8 +57,8 @@
 
 * [Legacy UV Packer](https://www.uv-packer.com/) for efficient UV packing.
 
-    * Download http://web.archive.org/web/20240203123438/https://www.uv-packer.com/wp-content/uploads/UV-Packer-Blender_Windows_1.4.0.zip and https://github.com/3d-io/uvpacker-blender-addon/releases/download/1.4.0/UV-Packer-Blender_Add-on_1.4.0.zip and put the files from the both archives into `blend_converter\external\uv_packer`
-    * For Blender 5.0+ replace `__init__.py` file with: https://gist.github.com/unwave/f37db385e677ea53b45a977d9adf7c79
+    * Download http://web.archive.org/web/20240203123438/https://www.uv-packer.com/wp-content/uploads/UV-Packer-Blender_Windows_1.4.0.zip and extract the files into `blend_converter\external\uv_packer`
+    * Download https://gist.github.com/unwave/35dee4130d49c5aac3310c7d20ecbf14 as zip and place `__init__.py` into `blend_converter\external\uv_packer`
 
 * [Ministry Of Flat](https://www.quelsolaar.com/ministry_of_flat/) for UV auto unwrapping.
 
