@@ -34,9 +34,11 @@
 
 3. Install `blend_converter`:
 
-    * Use: `pip install blend_converter`.
+    * Use for a stable version: `pip install blend_converter`
 
-        * The folder on Windows for Python 3.14 and a user named `user` will be located in: `C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\blend_converter`
+        **OR**
+
+    * Use for a newest unstable version: `pip install git+https://github.com/unwave/blend_converter`
 
 4. Ensure the basics are working.
 
