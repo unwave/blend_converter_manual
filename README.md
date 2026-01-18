@@ -71,7 +71,11 @@
 
 #### Update:
 
-* Use: `pip install --upgrade blend_converter`
+* `pip install --upgrade blend_converter`
+
+    **OR**
+
+* `pip install --upgrade git+https://github.com/unwave/blend_converter`
 
 #### Usage:
 
