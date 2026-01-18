@@ -50,19 +50,23 @@
 
 **Windows only.** *(If you know how to make them work on Linux or Mac — let me know)*
 
+* Located `blend_converter\external` folder
+
+    * Use: `py -m blend_converter show external`
+    * E.g.: `C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\blend_converter\external`
 
 * [Legacy UV Packer](https://www.uv-packer.com/) for efficient UV packing.
 
-    * Download http://web.archive.org/web/20240203123438/https://www.uv-packer.com/wp-content/uploads/UV-Packer-Blender_Windows_1.4.0.zip and https://github.com/3d-io/uvpacker-blender-addon/releases/download/1.4.0/UV-Packer-Blender_Add-on_1.4.0.zip and put the files from the both archives into `C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\blend_converter\external\uv_packer`
+    * Download http://web.archive.org/web/20240203123438/https://www.uv-packer.com/wp-content/uploads/UV-Packer-Blender_Windows_1.4.0.zip and https://github.com/3d-io/uvpacker-blender-addon/releases/download/1.4.0/UV-Packer-Blender_Add-on_1.4.0.zip and put the files from the both archives into `blend_converter\external\uv_packer`
     * For Blender 5.0+ replace `__init__.py` file with: https://gist.github.com/unwave/f37db385e677ea53b45a977d9adf7c79
 
 * [Ministry Of Flat](https://www.quelsolaar.com/ministry_of_flat/) for UV auto unwrapping.
 
-    *  Download https://www.quelsolaar.com/MinistryOfFlat_Release.zip and extract the files into `C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\blend_converter\external\ministry_of_flat`.
+    *  Download https://www.quelsolaar.com/MinistryOfFlat_Release.zip and extract the files into `blend_converter\external\ministry_of_flat`.
 
 * [V-HACD](https://github.com/kmammou/v-hacd) convex decomposition for creating optimized collision shapes.
 
-    *  Download https://github.com/kmammou/v-hacd/archive/refs/tags/v4.1.0.zip, locate the `TestVHACD.exe` file and place into `C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\blend_converter\external\vhacd`
+    *  Download https://github.com/kmammou/v-hacd/archive/refs/tags/v4.1.0.zip, locate the `TestVHACD.exe` file and place into `blend_converter\external\vhacd`
 
 
 #### Update:
