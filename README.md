@@ -71,7 +71,7 @@
 *If you know how to make them all work on Linux or Mac — let me know.*
 
 
-#### Update:
+#### To update the package later:
 
 * Run in terminal: `py -m pip install --upgrade blend_converter`
 
