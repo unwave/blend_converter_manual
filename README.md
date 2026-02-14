@@ -38,7 +38,7 @@
 
         **OR**
 
-    * Use for a newest unstable version: `py -m pip install git+https://github.com/unwave/blend_converter`
+    * Use for a newest unstable version: `py -m pip install https://github.com/unwave/blend_converter/archive/refs/heads/master.zip`
 
 4. Ensure the basics are working.
 
@@ -75,7 +75,7 @@
 
     **OR**
 
-* `py -m pip install --upgrade git+https://github.com/unwave/blend_converter`
+* `py -m pip install --upgrade https://github.com/unwave/blend_converter/archive/refs/heads/master.zip`
 
 #### Usage:
 
