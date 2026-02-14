@@ -55,18 +55,18 @@
 
 * [UV Packer](https://www.uv-packer.com/) for efficient UV packing. **Windows and Mac.**
 
-    * Download a zip with the executable and extract the files into `blend_converter\external\uv_packer`
+    * Download the zip with the executable and extract into `blend_converter\external\uv_packer\UV-Packer-Blender.exe`
         * Windows: http://web.archive.org/web/20240203123438/https://www.uv-packer.com/wp-content/uploads/UV-Packer-Blender_Windows_1.4.0.zip
         * MacOS: http://web.archive.org/web/20240203123438/https://www.uv-packer.com/wp-content/uploads/UV-Packer-Blender_MacOS_1.4.0.zip
-    * Download https://gist.github.com/unwave/35dee4130d49c5aac3310c7d20ecbf14 as zip and place `__init__.py` into `blend_converter\external\uv_packer`
+    * Download https://gist.github.com/unwave/35dee4130d49c5aac3310c7d20ecbf14/archive/1f40b292fabbe24428af39b5594105b3a6d60d9d.zip and extract `__init__.py` into `blend_converter\external\uv_packer\__init__.py`
 
 * [Ministry Of Flat](https://www.quelsolaar.com/ministry_of_flat/) for UV auto unwrapping. **Windows.**
 
-    *  Download https://www.quelsolaar.com/MinistryOfFlat_Release.zip and extract the files into `blend_converter\external\ministry_of_flat`.
+    *  Download https://www.quelsolaar.com/MinistryOfFlat_Release.zip and extract the files into `blend_converter\external\ministry_of_flat\UnWrap3.exe` and `blend_converter\external\ministry_of_flat\UnWrapConsole3.exe`.
 
 * [V-HACD](https://github.com/kmammou/v-hacd) convex decomposition for creating optimized collision shapes. **Windows binaries.**
 
-    *  Download https://github.com/kmammou/v-hacd/archive/refs/tags/v4.1.0.zip, locate the `TestVHACD.exe` file and place into `blend_converter\external\vhacd`
+    *  Download https://github.com/kmammou/v-hacd/archive/refs/tags/v4.1.0.zip, and extract `TestVHACD.exe` into `blend_converter\external\vhacd\TestVHACD.exe`
 
 *If you know how to make them all work on Linux or Mac — let me know.*
 
