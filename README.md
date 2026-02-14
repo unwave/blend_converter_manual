@@ -34,11 +34,11 @@
 
 3. Install `blend_converter`:
 
-    * Use for a stable version: `pip install blend_converter`
+    * Use for a stable version: `py -m pip install blend_converter`
 
         **OR**
 
-    * Use for a newest unstable version: `pip install git+https://github.com/unwave/blend_converter`
+    * Use for a newest unstable version: `py -m pip install git+https://github.com/unwave/blend_converter`
 
 4. Ensure the basics are working.
 
@@ -71,11 +71,11 @@
 
 #### Update:
 
-* `pip install --upgrade blend_converter`
+* `py -m pip install --upgrade blend_converter`
 
     **OR**
 
-* `pip install --upgrade git+https://github.com/unwave/blend_converter`
+* `py -m pip install --upgrade git+https://github.com/unwave/blend_converter`
 
 #### Usage:
 
