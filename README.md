@@ -46,7 +46,7 @@
     * If the script fails to find the Blender executable specify its manually by assigning `blender_executable` variable.
 
 
-##### Optional, but highly recommended external solutions:
+##### Download recommended additional solutions:
 
 **Windows only.** *(If you know how to make them work on Linux or Mac — let me know)*
 
