@@ -75,7 +75,7 @@
 
     **OR**
 
-* `py -m pip install --upgrade https://github.com/unwave/blend_converter/archive/refs/heads/master.zip`
+* `py -m pip install --force-reinstall --no-deps https://github.com/unwave/blend_converter/archive/refs/heads/master.zip`
 
 #### Usage:
 
