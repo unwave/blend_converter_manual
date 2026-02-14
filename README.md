@@ -48,25 +48,27 @@
 
 ##### Download recommended additional solutions:
 
-**Windows only.** *(If you know how to make them work on Linux or Mac — let me know)*
-
-* Located `blend_converter\external` folder
+* Locate the `blend_converter\external` folder
 
     * Use: `py -m blend_converter show external`
     * E.g.: `C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\blend_converter\external`
 
-* [Legacy UV Packer](https://www.uv-packer.com/) for efficient UV packing.
+* [UV Packer](https://www.uv-packer.com/) for efficient UV packing. **Windows and Mac.**
 
-    * Download http://web.archive.org/web/20240203123438/https://www.uv-packer.com/wp-content/uploads/UV-Packer-Blender_Windows_1.4.0.zip and extract the files into `blend_converter\external\uv_packer`
+    * Download a zip with the executable and extract the files into `blend_converter\external\uv_packer`
+        * Windows: http://web.archive.org/web/20240203123438/https://www.uv-packer.com/wp-content/uploads/UV-Packer-Blender_Windows_1.4.0.zip
+        * MacOS: http://web.archive.org/web/20240203123438/https://www.uv-packer.com/wp-content/uploads/UV-Packer-Blender_MacOS_1.4.0.zip
     * Download https://gist.github.com/unwave/35dee4130d49c5aac3310c7d20ecbf14 as zip and place `__init__.py` into `blend_converter\external\uv_packer`
 
-* [Ministry Of Flat](https://www.quelsolaar.com/ministry_of_flat/) for UV auto unwrapping.
+* [Ministry Of Flat](https://www.quelsolaar.com/ministry_of_flat/) for UV auto unwrapping. **Windows.**
 
     *  Download https://www.quelsolaar.com/MinistryOfFlat_Release.zip and extract the files into `blend_converter\external\ministry_of_flat`.
 
-* [V-HACD](https://github.com/kmammou/v-hacd) convex decomposition for creating optimized collision shapes.
+* [V-HACD](https://github.com/kmammou/v-hacd) convex decomposition for creating optimized collision shapes. **Windows binaries.**
 
     *  Download https://github.com/kmammou/v-hacd/archive/refs/tags/v4.1.0.zip, locate the `TestVHACD.exe` file and place into `blend_converter\external\vhacd`
+
+*If you know how to make them all work on Linux or Mac — let me know.*
 
 
 #### Update:
