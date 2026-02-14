@@ -35,7 +35,7 @@ if __name__ == '__main__':
     import uuid
     import tempfile
 
-    from blend_converter.blender import Blender
+    from blend_converter.blender.executor import Blender
     from blend_converter import common
     from blend_converter import utils
 
