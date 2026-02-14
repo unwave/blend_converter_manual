@@ -34,11 +34,11 @@
 
 3. Install `blend_converter`:
 
-    * Use for a stable version: `py -m pip install blend_converter`
+    * Run in terminal (Command Prompt `cmd.exe` on Windows: press `Win + R`, type `cmd`, and press Enter) for a stable version: `py -m pip install blend_converter`
 
         **OR**
 
-    * Use for a newest unstable version: `py -m pip install https://github.com/unwave/blend_converter/archive/refs/heads/master.zip`
+    * Run in terminal for a newest unstable version: `py -m pip install https://github.com/unwave/blend_converter/archive/refs/heads/master.zip`
 
 4. Ensure the basics are working.
 
@@ -50,7 +50,7 @@
 
 * Locate the `blend_converter\external` folder
 
-    * Use: `py -m blend_converter show external`
+    * Run in terminal: `py -m blend_converter show external`
     * E.g.: `C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\blend_converter\external`
 
 * [UV Packer](https://www.uv-packer.com/) for efficient UV packing. **Windows and Mac.**
@@ -73,11 +73,11 @@
 
 #### Update:
 
-* `py -m pip install --upgrade blend_converter`
+* Run in terminal: `py -m pip install --upgrade blend_converter`
 
     **OR**
 
-* `py -m pip install --force-reinstall --no-deps https://github.com/unwave/blend_converter/archive/refs/heads/master.zip`
+* Run in terminal: `py -m pip install --force-reinstall --no-deps https://github.com/unwave/blend_converter/archive/refs/heads/master.zip`
 
 #### Usage:
 
