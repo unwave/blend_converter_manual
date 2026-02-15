@@ -1,17 +1,23 @@
-As the Python code is the configuration, in order to use `blend_converter` features or add yours, you have to use a separate Python package as an entry point.
+#### The Python code is the configuration
+
+In order to use `blend_converter` and add yours features, you have to write a separate Python module that serves as an entry point.
 
 
 #### Template
 
-The reference is: https://github.com/unwave/blend_converter_template.
+The reference for the configuration is: https://github.com/unwave/blend_converter_template.
 
-The template guides and utilizes `blend_converter` to create an automation system that finalizes a model and exports it. Converting into meshes, applying modifiers, making UV layouts, baking materials, converting the rigs into deform-bone-only, etc. And then uses the Unreal Engine's Python remote execution to export as an FBX and import into Unreal. Allowing for a stage-less asset creation.
+The template utilizes `blend_converter` to create an automation system that finalizes a model and exports it. Converting into meshes non-mesh objects, applying modifiers, creating UV layouts, baking materials, converting armatures into deform-only, etc. And then exports as an FBX or glTF and can use the Unreal Engine's Python remote execution to import into Unreal. This allows for a stage-less asset creation, when you are able to continuously iterate on the blend files.
 
-I recommend setting up a repository right away. The template can also be a part of the game's repository.
+As you can add your own functionality to the template and monkey patch `blend_converter`, there is no hard distinction between `blend_converter` and your configuration.
+
+It is recommended to set up a version control repository right away. The template can also be a part of the game's repository.
 
 * Install Git: https://git-scm.com/install
 * Choose a folder: `cd /d C:\repo`
 * Clone the template: `git clone https://github.com/unwave/blend_converter_template`
+
+You can also just download the template repository without cloning and retaining any prior commit history. As your configuration is expected to be incompatible with the upstream.
 
 
 #### File hierarchy
@@ -73,7 +79,7 @@ First you have to bake the blend files and then export it.
 
 #### A configuration for the configuration
 
-If you want to take advantage of the template repository being updated without modifying it yourself you can hook it up by using another configuration file for the template itself by changing source folders and common settings. See the `bct_starter.py` file.
+If you want to take advantage of the template repository being updated upstream without modifying it yourself you can hook it up by using another configuration file for the template itself by changing source folders and common settings. See the `bct_starter.py` file.
 
 * Replace paths in `bct_starter.py` and make sure that in the paths `STATIC_BLEND` and `SKELETAL_BLEND` have blend files.
 
